@@ -14,7 +14,7 @@ const RecipeFinder = () => {
     JSON.parse(localStorage.getItem("favorites")) || []
   );
 
-  const API_KEY = "aa4ebeeaac3b4aa0b36f4fc59c201bde";
+  const API_KEY = "f7c7e9990e9c41708992aaf42d9c9753";
 
   useEffect(() => {
     fetchRandomRecipes();
